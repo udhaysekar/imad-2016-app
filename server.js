@@ -10,13 +10,13 @@ app.get('/', function (req, res) {
 });
 
 app.get("/article-one", function (req, res){
-    res.send("artivlr-one.requested and will be serve");
+    res.send("artivlr-one.requested and will be serve 1");
 });
 app.get("/article-two", function (req, res){
-    res.send("artivlr-two.requested and will be serve");
+    res.send("artivlr-two.requested and will be serve 2");
 });
 app.get("/article-three", function (req, res){
-    res.send("artivlr-three .requested and will be serve");
+    res.send("artivlr-three .requested and will be serve 3 ");
 });
 
 
